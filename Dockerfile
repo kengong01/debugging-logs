@@ -11,3 +11,4 @@ COPY . .
 EXPOSE 8080
 
 CMD ["nohup", "node", "server.js", ">", "output.log", "&"]
+
